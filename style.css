@@ -1,0 +1,29 @@
+#container {
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: white;
+    width: 70%;
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#button-div {
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+    font-size: 25px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+button:active {
+    filter: brightness(80%)
+}
